@@ -1,0 +1,48 @@
+{
+  "name": "local",
+  "plural": "locales",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "nombre_local": {
+      "type": "string",
+      "required": true
+    },
+    "direccion_local": {
+      "type": "string",
+      "required": true
+    },
+    "telefono_local": {
+      "type": "number",
+      "required": true
+    },
+    "email_local": {
+      "type": "string"
+    },
+    "web_local": {
+      "type": "string"
+    },
+    "url_logo_local": {
+      "type": "string"
+    },
+    "condiciones_orden": {
+      "type": "string"
+    },
+    "usuarios": {
+      "type": [
+        "number"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

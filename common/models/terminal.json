@@ -1,0 +1,40 @@
+{
+  "name": "terminal",
+  "plural": "terminales",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "local_id": {
+      "type": "number",
+      "required": true
+    },
+    "tipo_terminal_id": {
+      "type": "number",
+      "required": true
+    },
+    "modelo_id": {
+      "type": "number",
+      "required": true
+    },
+    "numero_serie": {
+      "type": "string",
+      "required": true
+    },
+    "fotos": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

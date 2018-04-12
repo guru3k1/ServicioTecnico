@@ -20,5 +20,29 @@
   "modelo": {
     "dataSource": "monguito",
     "public": true
+  },
+  "tipo_terminal": {
+    "dataSource": "monguito",
+    "public": true
+  },
+  "foto": {
+    "dataSource": "monguito",
+    "public": true
+  },
+  "terminal": {
+    "dataSource": "monguito",
+    "public": true
+  },
+  "local": {
+    "dataSource": "monguito",
+    "public": true
+  },
+  "cliente": {
+    "dataSource": "monguito",
+    "public": true
+  },
+  "orden": {
+    "dataSource": "monguito",
+    "public": true
   }
 }

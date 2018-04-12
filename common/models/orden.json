@@ -1,0 +1,65 @@
+{
+  "name": "orden",
+  "plural": "ordenes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "local_id": {
+      "type": "number",
+      "required": true
+    },
+    "cliente_id": {
+      "type": "number",
+      "required": true
+    },
+    "terminal_id": {
+      "type": "number",
+      "required": true
+    },
+    "numero_orden": {
+      "type": "number",
+      "required": true
+    },
+    "detalle": {
+      "type": "string"
+    },
+    "estado_reparacion": {
+      "type": "boolean",
+      "default": false
+    },
+    "estado_presupuesto": {
+      "type": "boolean",
+      "default": false
+    },
+    "importe_presupuestado": {
+      "type": "number"
+    },
+    "importe_repuestos": {
+      "type": "number"
+    },
+    "fecha_ingreso": {
+      "type": "date",
+      "required": true
+    },
+    "fecha_presupuesto": {
+      "type": "date"
+    },
+    "fecha_entrega": {
+      "type": "date"
+    },
+    "tarea_realizada": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

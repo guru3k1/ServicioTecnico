@@ -1,0 +1,73 @@
+Marca
+------
+id  -   Numerico
+marca_name  -   Texto
+
+Modelo
+------
+id  -   Numerico
+marca_id    -   Numerico
+modelo_nombre   -   Texto
+
+Tipo_Terminal
+-------------
+id  -   Numerico  
+tipo_name  -   Texto
+
+Fotos
+------
+id  -   Numerico
+terminal_id -   Numerico
+url -   Texto
+
+Local 
+------
+id  -   Numerico
+nombre_local    -   Texto
+direccion_local -   Texto
+telefono_local  -   numerico
+email_local -   Texto
+web_local   -   Texto
+url_logo_local  -   Texto
+condiciones_orden - Texto
+usuarios[]    -   array numerico
+
+
+Terminal
+--------
+id  -   Numerico
+local_id    -   Numerico
+tipo_terminal_id    -   Numerico
+modelo_id   -   Numerico
+numero_serie    -   Numerico
+Fotos[]     -   array Texto
+
+
+Cliente
+--------
+id  -   Numerico
+local_id    -   Numerico
+apellido_nombre     -   Texto
+tel_fijo    -   Numerico
+tel_celular -   Numerico
+email   -   Texto
+Terminales []   -   Array Numerico
+Ordenes []  -   array Numerico
+
+Orden
+--------
+id  -   Numerico
+local_id    -   Numerico
+cliente_id  -   Numerico
+terminal_id -   Numerico
+numero_orden    -    Numerico
+detalle -   Texto
+estado_reparacion   -   Booleano
+estado_presupuesto  -   Booleano
+importe_presupuestado   -   float
+importe_repuestos   -   float
+fecha_ingreso   -   fecha
+fecha_presupuesto   -   fecha
+fecha_entrega   -   fecha
+tarea_realizada -   Texto
+

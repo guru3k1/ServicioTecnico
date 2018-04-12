@@ -1,0 +1,46 @@
+{
+  "name": "cliente",
+  "plural": "clientes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "local_id": {
+      "type": "number",
+      "required": true
+    },
+    "apellido_nombre": {
+      "type": "string",
+      "required": true
+    },
+    "tel_fijo": {
+      "type": "string"
+    },
+    "tel_celular": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "terminales": {
+      "type": [
+        "number"
+      ]
+    },
+    "ordenes": {
+      "type": [
+        "number"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

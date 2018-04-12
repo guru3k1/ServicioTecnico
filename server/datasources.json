@@ -1,0 +1,12 @@
+{
+  "monguito": {
+    "host": "ds241019.mlab.com",
+    "port": 41019,
+    "url": "mongodb://guru3k1:2018Rusia@ds241019.mlab.com:41019/gurutestapp",
+    "database": "gurutestapp",
+    "password": "2018Rusia",
+    "name": "monguito",
+    "user": "guru3k1",
+    "connector": "mongodb"
+  }
+}

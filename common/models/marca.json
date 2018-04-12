@@ -1,0 +1,29 @@
+{
+  "name": "marca",
+  "plural": "marcas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "marca_name": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "modelos": {
+      "type": "hasMany",
+      "model": "modelo",
+      "foreignKey": "marca_id"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

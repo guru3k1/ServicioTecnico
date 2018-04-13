@@ -44,5 +44,9 @@
   "orden": {
     "dataSource": "monguito",
     "public": true
+  },
+  "UserDB": {
+    "dataSource": "monguito",
+    "public": true
   }
 }

@@ -1,42 +1,28 @@
 {
-  "name": "cliente",
-  "plural": "clientes",
+  "name": "UserDB",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "id": {
-      "type": "number",
-      "required": true
-    },
-    "local_id": {
+    "username": {
       "type": "string",
       "required": true
     },
-    "apellido_nombre": {
+    "password": {
       "type": "string",
       "required": true
-    },
-    "tel_fijo": {
-      "type": "string"
-    },
-    "tel_celular": {
-      "type": "string"
     },
     "email": {
+      "type": "string",
+      "required": true
+    },
+    "gender": {
       "type": "string"
     },
-    "terminales": {
-      "type": [
-        "number"
-      ]
-    },
-    "ordenes": {
-      "type": [
-        "number"
-      ]
+    "address": {
+      "type": "string"
     }
   },
   "validations": [],

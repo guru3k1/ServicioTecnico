@@ -18,15 +18,19 @@
     "loopback": "^3.0.0",
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^5.0.0",
+    "loopback-component-passport": "^3.8.0",
     "loopback-connector-mongodb": "^1.18.1",
-    "mongoimport": "^1.0.6",
+    "passport": "~0.2.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "^3.17.1",
     "eslint-config-loopback": "^8.0.0",
-    "mongo-import": "0.0.2",
     "nsp": "^2.1.0"
   },
   "repository": {
